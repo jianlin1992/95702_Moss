@@ -10,9 +10,11 @@ Feb 13, 2016
 
 ##1. Prepare Files Accordingly
 
-**working directory**: The folder where all files and directories are located, including moss.pl, solution_directory, base_directory, solutions, and potential archived result from Moss.
+**working directory**: 
 
-1. Download all students’ codes from blackboard and unzip them under `solutions` folder.
+The folder where all files and directories are located, including `moss.pl`, `solution_directory`, `base_directory`, `solutions`, and potential archived result from Moss.
+
+#####Download all students’ codes from blackboard and unzip them under `solutions` folder.#####
    
    Under solutions, there must be directly zip files of submissions of each student with no archive folder.
 
