@@ -45,12 +45,14 @@ Put source codes provided by faculties into this directory.
 
 >Example:
 
->`./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java –c “Project1” solutions_directory/*/*`
+>```./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java 
+                      –c “Project1” solutions_directory/*/*
+```
 
 - If you can’t execute it, execute: `chmod 777 moss.pl` to grant permission. 
 - Please read the instructions in [moss.pl](Read_to_use/moss.pl) for more details
 
-Wait until the program provides a url for results, which may take one or two minutes.
+Wait until the program provides a url to the result, which may take one or two minutes.
 
 ###Fetch Results from Moss
 Moss platform is deployed as an online service, we don’t have access directly to the system, but we can access the result given by Moss.
