@@ -16,7 +16,7 @@ This is the folder where all files and directories are located, including `moss.
 
 Under solutions, there must be directly zip files of submissions of each student with no archive folder.
 ```
-soltions/
+solutions/
 |-- student1.zip
 |-- student2.zip
 |-- student3.zip
@@ -34,7 +34,7 @@ Copy students’ submission folders to `solutions_directory` task by task.
 
 A valid directory containing all students’ solutions should look like this:
 ```
-soltion_directory/
+solution_directory/
 |-- Project1Task1_student1/
     |-- classA.java
     |-- ...
