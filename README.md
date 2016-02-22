@@ -1,20 +1,22 @@
 #Guidelines for Moss
->Plagiarism Check for Programs
->http://theory.stanford.edu/~aiken/moss/
+>Plagiarism Check for Programs. See http://theory.stanford.edu/~aiken/moss/
 
 ##Last Update
 Jianlin Zhang (jianlin1992@gmail.com)
+
 Feb 13, 2016
 
 **_Note: this guide is Unix-based. Errors might happen under Windows environment._**
 
-##Prepare Files Accordingly
+##1. Prepare Files Accordingly
 
 **working directory**: The folder where all files and directories are located, including moss.pl, solution_directory, base_directory, solutions, and potential archived result from Moss.
 
-- Download all students’ codes from blackboard and unzip them under `solutions` folder.
-    - under solutions, there must be directly zip files of submissions of each student with no archive folder.
-- Execute copyFile.sh with `./copyFile.sh solutions`
+1. Download all students’ codes from blackboard and unzip them under `solutions` folder.
+   
+   Under solutions, there must be directly zip files of submissions of each student with no archive folder.
+
+2. Execute copyFile.sh with `./copyFile.sh solutions`
     - After execution, solutions folder should contain folders named like “Project1Task1AndrewID”.
     - However, there are students who don’t name their Netbeans project zips as required. We need to manually check any outliers.
 - Create a folder named `solutions_directory`.
