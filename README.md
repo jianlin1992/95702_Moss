@@ -73,10 +73,8 @@ http://moss.stanford.edu/results/result#
 In the webpage, we will get results given by Moss. The results are somewhat sorted by percentages that two files have in common. We need to **MANUALLY** check the top-rated files before making any conclusion about academic plagiarism!
 
 #####Screenshots:
-
-
-
-
+![screenshot1](Archive/Result_Screenshot1.png)
+![screenshot2](Archive/Result_Screenshot2.png)
 
 
 
