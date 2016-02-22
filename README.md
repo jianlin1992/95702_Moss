@@ -7,33 +7,42 @@ Jianlin Zhang (jianlin1992@gmail.com)
 
 Feb 13, 2016
 
-###Prepare Files Accordingly
+###Prepare Files
 
 >**Working Directory**:
 This is the folder where all files and directories are located, including `moss.pl`, `solution_directory`, `base_directory`, `solutions`, and potential archived result from Moss.
 
-#####1. Download all students’ codes from blackboard and unzip them under `solutions` folder.
-Under solutions, there must be directly zip files of submissions of each student with no archive folder.
+#####1. Download all students’ codes from blackboard and copy them into the `solutions` folder.
 
-#####2. Execute copyFile.sh with `./copyFile.sh solutions`
-After execution, solutions folder should contain folders named like “Project1Task1AndrewID”. 
+Under solutions, there must be directly zip files of submissions of each student with no archive folder.
+```
+soltions/
+|-- student1.zip
+|-- student2.zip
+|-- student3.zip
+|-- ...
+```
+
+#####2. Execute copyFile.sh with`./copyFile.sh solutions`
+After execution, solutions folder should contain folders named like `Project1Task1AndrewID`. 
 
 However, there are students who don’t name their Netbeans project zips as required. We need to manually check any outliers.
 
 #####3. Create a folder named `solutions_directory`.
 Copy students’ submission folders to `solutions_directory` task by task. 
-- For example, sort folders by name and copy all folders named “Project1Task1AndrewID”.
+- For example, sort folders by name and copy all folders named `Project1Task1_andrewID`.
 
 A valid directory containing all students’ solutions should look like this:
 ```
 soltion_directory/
-|-- Project1Task1student1/
+|-- Project1Task1_student1/
     |-- classA.java
     |-- ...
-|-- Project1Task1student2/
+|-- Project1Task1_student2/
     |-- ...
-|-- Project1Task1student3/
+|-- Project1Task1_student3/
     |-- ...
+~~|-- Project1Task2_student1/~~
 ```
 #####4. Create another folder called `base_directory`.
 Put source codes provided by faculties into this directory.
@@ -41,7 +50,7 @@ Put source codes provided by faculties into this directory.
 
 ###Execute the Submission Program
 #####Execute moss.pl with the following parameters
-`./ moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3`
+`./moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3`
 
 >Example:
 >```
