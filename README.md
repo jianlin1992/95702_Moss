@@ -9,7 +9,7 @@ Feb 13, 2016
 
 ###Prepare Files Accordingly
 
-**Working Directory**:
+>**Working Directory**:
 This is the folder where all files and directories are located, including `moss.pl`, `solution_directory`, `base_directory`, `solutions`, and potential archived result from Moss.
 
 #####1. Download all students’ codes from blackboard and unzip them under `solutions` folder.
@@ -40,11 +40,8 @@ If there are sample codes provided by the faculties, add source codes into this 
 - Note: base files need be served one by one as parameters in moss.pl.
 
 ###Execute the Submission Program
-
-Execute moss.pl given parameters: (Please read the instructions in moss.pl for more details)
-
-
-./ moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3
+#####1.Execute moss.pl given parameters: (Please read the instructions in moss.pl for more details)
+`./ moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3`
 
 For example:
 ./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java –c “Project1” solutions_directory/*/*
