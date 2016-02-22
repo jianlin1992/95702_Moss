@@ -53,7 +53,7 @@ Put source codes provided by faculties into this directory.
 
 >Example:
 >```
-./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java 
+./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java \
                   –c “Project1” solutions_directory/*/*
 ```
 
