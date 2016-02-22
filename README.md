@@ -42,14 +42,14 @@ If there are sample codes provided by the faculties, add source codes into this 
 ###Execute the Submission Program
 #####Execute moss.pl with the following parameters
 `./ moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3`
-(Please read the instructions in moss.pl for more details)
+
+If you can’t execute it, execute: `chmod 777 moss.pl` to grant permission. 
+
+Please read the instructions in [moss.pl](Read_to_use/moss.pl) for more details
 
 **For example:**
-
-```./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java –c “Project1” solutions_directory/*/*
-
-(if you can’t execute it, execute: chmod 777 moss.pl)
-```
+`./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java –c “Project1” solutions_directory/*/*
+`
 
 #####2. Wait until the program provides a url for results. 
 This might take a short while like one or two minutes.
