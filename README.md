@@ -68,7 +68,7 @@ Moss platform is deployed as an online service, we don’t have access directly 
 Open the url of results in browser. http://moss.stanford.edu/results/[result#]
 #####Option 2: Download to local
 `wget -r -np http://moss.stanford.edu/results/result#`
-This will 
+
 You might need to install `wget` beforehand.
 
 ###Check Results
