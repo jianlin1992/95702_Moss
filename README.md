@@ -1,6 +1,6 @@
 ##Guidelines for Moss
->Plagiarism Check for Programs. See http://theory.stanford.edu/~aiken/moss/
 **_Note: this guide is Unix-based. Errors might happen under Windows environment._**
+>Plagiarism Check for Programs. See http://theory.stanford.edu/~aiken/moss/
 
 ###Last Update
 Jianlin Zhang (jianlin1992@gmail.com)
@@ -9,34 +9,35 @@ Feb 13, 2016
 
 ###Prepare Files Accordingly
 
-#####working directory: 
-The folder where all files and directories are located, including `moss.pl`, `solution_directory`, `base_directory`, `solutions`, and potential archived result from Moss.
+#####Working Directory 
+This is the folder where all files and directories are located, including `moss.pl`, `solution_directory`, `base_directory`, `solutions`, and potential archived result from Moss.
 
 #####1. Download all students’ codes from blackboard and unzip them under `solutions` folder.
 Under solutions, there must be directly zip files of submissions of each student with no archive folder.
 
 #####2. Execute copyFile.sh with `./copyFile.sh solutions`
-    - After execution, solutions folder should contain folders named like “Project1Task1AndrewID”.
-    - However, there are students who don’t name their Netbeans project zips as required. We need to manually check any outliers.
-- Create a folder named `solutions_directory`.
-- Copy students’ submission folders to `solutions_directory` task by task. 
-    - For example, sort folders by name and copy all folders named “Project1Task1AndrewID”.
-- A valid directory containing all students’ solutions should look like this:
-    ````
-    soltion_directory
-    |- Project1Task1student1
-       |- classA.java
-       |- ...
-    |- Project1Task1student2
-       |- ...
-    |_ Project1Task1student3
-       |- ...
-    ```
-- Create another folder called `base_directory`. 
-    - If there are sample codes provided by the faculties, add source codes into this directory.
-    - Note: base files need be served one by one as parameters in moss.pl.
+After execution, solutions folder should contain folders named like “Project1Task1AndrewID”. However, there are students who don’t name their Netbeans project zips as required. We need to manually check any outliers.
 
-Step 2 – Execute the Submission Program
+#####3. Create a folder named `solutions_directory`.
+Copy students’ submission folders to `solutions_directory` task by task. 
+- For example, sort folders by name and copy all folders named “Project1Task1AndrewID”.
+
+A valid directory containing all students’ solutions should look like this:
+```
+soltion_directory
+|- Project1Task1student1
+   |- classA.java
+   |- ...
+|- Project1Task1student2
+   |- ...
+|_ Project1Task1student3
+   |- ...
+```
+Create another folder called `base_directory`.
+- If there are sample codes provided by the faculties, add source codes into this directory.
+- Note: base files need be served one by one as parameters in moss.pl.
+
+###Execute the Submission Program
 
 Execute moss.pl given parameters: (Please read the instructions in moss.pl for more details)
 
