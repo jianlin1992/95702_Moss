@@ -26,28 +26,27 @@ Copy students’ submission folders to `solutions_directory` task by task.
 
 A valid directory containing all students’ solutions should look like this:
 ```
-soltion_directory
-|- Project1Task1student1
-   |- classA.javaz
-   |- ...
-|- Project1Task1student2
-   |- ...
-|_ Project1Task1student3
-   |- ...
+soltion_directory/
+|-- Project1Task1student1/
+   |-- classA.java
+   |-- ...
+|-- Project1Task1student2/
+   |-- ...
+|-- Project1Task1student3/
+   |-- ...
 ```
 #####4. Create another folder called `base_directory`.
-If there are sample codes provided by the faculties, add source codes into this directory.
-- Note: base files need be served one by one as parameters in moss.pl.
+Put source codes provided by faculties into this directory.
+- Note: base files will be served one by one as parameters in moss.pl.
 
 ###Execute the Submission Program
 #####Execute moss.pl with the following parameters
 `./ moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3`
 
 If you can’t execute it, execute: `chmod 777 moss.pl` to grant permission. 
-
 Please read the instructions in [moss.pl](Read_to_use/moss.pl) for more details
 
-**For example:**
+>For example:
 `./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java –c “Project1” solutions_directory/*/*
 `
 
