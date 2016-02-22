@@ -42,7 +42,6 @@ soltion_directory/
     |-- ...
 |-- Project1Task1_student3/
     |-- ...
-~~|-- Project1Task2_student1/~~
 ```
 #####4. Create another folder called `base_directory`.
 Put source codes provided by faculties into this directory.
