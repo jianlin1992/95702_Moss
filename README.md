@@ -40,7 +40,7 @@ If there are sample codes provided by the faculties, add source codes into this 
 - Note: base files need be served one by one as parameters in moss.pl.
 
 ###Execute the Submission Program
-#####1. Execute moss.pl given parameters
+#####Execute moss.pl with the following parameters
 `./ moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3`
 (Please read the instructions in moss.pl for more details)
 
@@ -48,21 +48,23 @@ If there are sample codes provided by the faculties, add source codes into this 
 
 ```./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java –c “Project1” solutions_directory/*/*
 
-(if you can’t execute it, execute: chmod 777 moss.pl)```
+(if you can’t execute it, execute: chmod 777 moss.pl)
+```
 
-#####2. Wait until the program provides a url for results. And this might take a short while like one or two minutes.
+#####2. Wait until the program provides a url for results. 
+This might take a short while like one or two minutes.
 
 ###Fetch Results from Moss
 Moss platform is deployed as an online service, we don’t have access directly to the system, but we can access the result given by Moss.
-#####Option 1: View on browser
+#####Option 1: View in browser
 http://moss.stanford.edu/results/result#
-#####Option 2: download for local archives
+#####Option 2: Download to local
 `wget -r -np http://moss.stanford.edu/results/result#`
 
 ###Check Results
-In the webpage, we will get results given by Moss. The results are somewhat sorted by percentages that two files have in common. We need to MANUALLY go into top-rated files before making any conclusion about academic plagiarism!
+In the webpage, we will get results given by Moss. The results are somewhat sorted by percentages that two files have in common. We need to **MANUALLY** check the top-rated files before making any conclusion about academic plagiarism!
 
-###Screenshots:
+#####Screenshots:
 
 
 
