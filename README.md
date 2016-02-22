@@ -44,10 +44,9 @@ Put source codes provided by faculties into this directory.
 `./ moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3`
 
 >Example:
-
 >```
 ./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java 
-                      –c “Project1” solutions_directory/*/*
+                  –c “Project1” solutions_directory/*/*
 ```
 
 - If you can’t execute it, execute: `chmod 777 moss.pl` to grant permission. 
