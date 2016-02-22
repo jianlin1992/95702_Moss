@@ -1,4 +1,4 @@
-##Guidelines for Moss
+##A Guide to Using Moss
 **_Note: this guide is Unix-based. Errors might happen under Windows environment._**
 >Plagiarism Check for Programs. See http://theory.stanford.edu/~aiken/moss/
 
@@ -40,15 +40,14 @@ If there are sample codes provided by the faculties, add source codes into this 
 - Note: base files need be served one by one as parameters in moss.pl.
 
 ###Execute the Submission Program
-#####1.Execute moss.pl given parameters: (Please read the instructions in moss.pl for more details)
+#####1. Execute moss.pl given parameters: (Please read the instructions in moss.pl for more details)
 `./ moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3`
 
-For example:
-./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java –c “Project1” solutions_directory/*/*
+**For example:**
+```./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java –c “Project1” solutions_directory/*/*
+(if you can’t execute it, execute: chmod 777 moss.pl)```
 
-    (if you can’t execute it, execute: chmod 777 moss.pl)
-    
-Wait until the program provides a url for results. And this might take a short while like one or two minutes.
+#####2. Wait until the program provides a url for results. And this might take a short while like one or two minutes.
 
 Step 3 – Fetch Results from Moss
 
