@@ -28,12 +28,12 @@ A valid directory containing all students’ solutions should look like this:
 ```
 soltion_directory/
 |-- Project1Task1student1/
-   |-- classA.java
-   |-- ...
+    |-- classA.java
+    |-- ...
 |-- Project1Task1student2/
-   |-- ...
+    |-- ...
 |-- Project1Task1student3/
-   |-- ...
+    |-- ...
 ```
 #####4. Create another folder called `base_directory`.
 Put source codes provided by faculties into this directory.
@@ -43,15 +43,13 @@ Put source codes provided by faculties into this directory.
 #####Execute moss.pl with the following parameters
 `./ moss [-l language] [-d] [-b basefile1] ... [-b basefilen] [-m #] [-c "string"] file1 file2 file3`
 
-If you can’t execute it, execute: `chmod 777 moss.pl` to grant permission. 
-Please read the instructions in [moss.pl](Read_to_use/moss.pl) for more details
+>Example:
+>`./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java –c “Project1” solutions_directory/*/*`
 
->For example:
-`./moss -l java -d –b base_directory/file1.java –b base_directory/file2.java –c “Project1” solutions_directory/*/*
-`
+- If you can’t execute it, execute: `chmod 777 moss.pl` to grant permission. 
+- Please read the instructions in [moss.pl](Read_to_use/moss.pl) for more details
 
-#####2. Wait until the program provides a url for results. 
-This might take a short while like one or two minutes.
+Wait until the program provides a url for results, which may take one or two minutes.
 
 ###Fetch Results from Moss
 Moss platform is deployed as an online service, we don’t have access directly to the system, but we can access the result given by Moss.
