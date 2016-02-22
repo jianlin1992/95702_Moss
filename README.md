@@ -64,10 +64,12 @@ Wait until the program provides a url to the result, which may take one or two m
 
 ###Fetch Results from Moss
 Moss platform is deployed as an online service, we don’t have access directly to the system, but we can access the result given by Moss.
-#####Option 1: View in browser
+#####Option 1: View in browser (Recommended)
 Open the url of results in browser. http://moss.stanford.edu/results/[result#]
 #####Option 2: Download to local
 `wget -r -np http://moss.stanford.edu/results/result#`
+This will 
+You might need to install `wget` beforehand.
 
 ###Check Results
 In the webpage, we will get results given by Moss. The results are somewhat sorted by percentages that two files have in common. We need to **MANUALLY** check the top-rated files before making any conclusion about academic plagiarism!
